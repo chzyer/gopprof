@@ -15,3 +15,5 @@ Saved profile in /Users/xxx/pprof/pprof.localhost:6060.inuse_objects.inuse_space
 Entering interactive mode (type "help" for commands)
 (gopprof) _
 ```
+
+<script type="text/javascript" src="https://asciinema.org/a/c2ijwhevuxhic8j1n1eylgqx3.js" id="asciicast-c2ijwhevuxhic8j1n1eylgqx3" async></script>
