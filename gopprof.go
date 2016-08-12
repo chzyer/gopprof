@@ -45,7 +45,9 @@ func runPprof(args []string) error {
 	}()
 	go process(pr, pprofIn)
 
-	return <-errChan
+	err = <-errChan
+	pr.CloseWithError(err)
+	return err
 }
 
 func process(pr io.ReadCloser, pprofIn io.Writer) {
