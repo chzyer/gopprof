@@ -1,5 +1,5 @@
 # gopprof
-A go pprof wrapper which provided full readline user experience
+A go pprof wrapper with full readline supported
 
 ### Get
 ```
